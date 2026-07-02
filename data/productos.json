@@ -1,0 +1,12 @@
+[
+    {"id": "1", "nombre": "Silla Martina", "detalle": "Silla Martina plegable color negro.", "img": "img/silla negra plegable.jpg", "precio": 20500 },
+    {"id": "2", "nombre": "Silla Cassandra", "detalle": "Silla Cassandra con asiento de madera.", "img": "img/silla de madera.jpg", "precio": 22500 },
+    {"id": "3", "nombre": "Silla Samantha", "detalle": "Silla Samantha plegable color gris.", "img": "img/silla gris plegable.jpg", "precio": 19500 },
+    {"id": "4", "nombre": "Silla Linette", "detalle": "Silla Linette color naranja.", "img": "img/silla naranja.jpg", "precio": 25400 },
+    {"id": "5", "nombre": "Silla Fátima", "detalle": "Silla Fátima en madera con asiento de pana.", "img": "img/silla madera clasica.jpg", "precio": 25500 },
+    {"id": "6", "nombre": "Jarrón Lisboa", "detalle": "Jarrón Lisboa con arabescos.", "img": "img/jarron arabescos.jpg", "precio": 15000 },
+    {"id": "7", "nombre": "Jarrón Tokio", "detalle": "Jarrón Tokio con dibujos clásicos estilo oriental.", "img": "img/jarron chino.jpg", "precio": 18000 },
+    {"id": "8", "nombre": "Jarrón Chicago", "detalle": "Jarrón Chicago de diseño moderno.", "img": "img/jarron moderno.jpg", "precio": 13000 },
+    {"id": "9", "nombre": "Reloj Turmalina", "detalle": "Reloj Turmalina de pared color negro.", "img": "img/reloj negro.jpg", "precio": 9500 },
+    {"id": "10", "nombre": "Reloj Peltre", "detalle": "Reloj Peltre de pared color plata.", "img": "img/reloj plateado.jpg", "precio": 11500 }
+]

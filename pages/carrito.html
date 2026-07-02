@@ -28,25 +28,12 @@
     </header>
 
     <main>
-        <h1 class="titulo-contacto text-secondary">Contactanos</h1>
+        <h1>Carrito de compras</h1>
+        <section id="contenedor-carrito" class="contenedor-carrito"></section>
 
-        <form 
-        class="form-contacto"
-        action="https://formspree.io/f/mnjlawna"
-        method="POST">
-        
-        <div class="grupo-input">
-            <label for="email">Your email:</label>
-            <input id="email" type="email" name="email"/>
-        </div>
-        <div class="grupo-input">
-         <label for="mensaje"> Your message: </label>
-         <textarea id="mensaje" name="message"></textarea>
-        </div>
+        <div id="acciones-carrito" class="acciones-carrito" ></div>
 
-        <button class="btn bg-secondary text-dark" type="submit">Send</button>
-
-        </form>
+        <section id="resumen-carrito"></section>
     </main>
 
     <footer>
@@ -59,6 +46,6 @@
         </nav>
     </footer>
 
-    <script src="../js/contacto.js" type="module"></script>
+    <script src="../js/carrito.js" type="module"></script>
 </body>
 </html>
