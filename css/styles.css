@@ -272,3 +272,28 @@ footer .footer-list {
     margin: 0;
   }
 }
+
+/* -------------------------------------------------------------------------- */
+/*                                CSS SWEETALERTS                              */
+/* -------------------------------------------------------------------------- */
+
+.btn-msj {
+  background-color: #885647;
+  border-radius: 2rem;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 2rem;
+  color: #1d1a20;
+}
+
+.btn-msj:hover {
+  background-color: #2f201c;
+  color: #f4a891;
+}
+
+.box-msj {
+  background-color: #f4a891;
+  border-radius: 2rem !important;
+  font-family: "Bricolage Grotesque", sans-serif;
+  font-size: 1rem;
+  color: #1d1a20;
+}
