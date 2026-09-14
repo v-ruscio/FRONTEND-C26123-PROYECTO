@@ -1,72 +1,67 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COTIZADOR</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<header>
-    <nav class="header-nav">
-            <ul>
-                <li>
-                    <a href="./index.html">Inicio</a>
-                </li>
-                <li>
-                    <a href="./pages/previo.html">Mes anterior</a>
-                </li>
-            </ul>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,200..800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="div-logo">
+        <a class="logo" href="./index.html"><img src="./img/logo.png" /></a>
+      </div>
 
-        </nav>
-</header>
-<body>
-    <p class="titulo">COTIZADOR MICROS Y MINIBUSES</p>
-     <h1>VALORES AGOSTO 2026</h1>
+      <nav class="header-nav">
+        <ul>
+          <li>
+            <a href="./index.html">Inicio</a>
+          </li>
+          <li>
+            <a href="./pages/contacto.html">Contacto</a>
+          </li>
+          <li>
+            <a href="./pages/carrito.html" class="carrito-icono"
+              >🛒 <span id="contador-carrito">0</span></a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
 
-    <input type="text" class="suma" id="miInput" placeholder="Introduzca la suma asegurada">
-    <article class="opciones">
-    <button class="btn" onclick="micro100()">Micro 100kms</button>
-    <button class="btn" onclick="micro200()">Micro 200kms</button>
-    <button class="btn" onclick="mini100()">Minibus hasta 20 asientos 100kms</button>
-    <button class="btn" onclick="mini200()">Minibus hasta 20 asientos 200kms</button>
-    <button class="btn" onclick="mini100mas()">Minibus mas de 20 asientos 100kms</button>
-    <button class="btn" onclick="mini200mas()">Minibus mas de 20 asientos 200kms</button>
-    <button class="btn" onclick="miniTdp()">Minibus Todo el pais</button>
-    <button class="btn btn-especial" onclick="mostrarSumas()">Ver S.A. micros</button>
-    
-    </article>
-    
-    <article class="coberturas">
-        <div><p id="textoRc"></p>
-        <p id="cobRc"></p></div>
-        <div><p id="textoB"></p>
-        <p id="cobB"></p></div>
-        <div><p id="textoB1"></p>
-        <p id="cobB1"></p></div>
-        <div><p id="textoC"></p>
-        <p id="cobC"></p></div>
-        <div><p id="textoC1"></p>
-        <p id="cobC1"></p></div>
+    <main>
+      <h1 class="titulo-home text-secondary">Bienvenidos a la tienda</h1>
+      <p class="parrafo">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tenetur
+        voluptatum dolor exercitationem doloribus rerum qui sint iure sequi
+        autem odit modi aut, pariatur, delectus corporis ab impedit eius alias
+        fugit?
+      </p>
 
+      <section>
+        <h2 class="titulo-productos text-secondary">Nuestros productos</h2>
 
-        <table>
-<thead>
-  <tr>
-   <th></th>
-   <th></th>
-  </tr>
-<thead>
-<tbody id="sa">
+        <div id="contenedor-tarjetas" class="contenedor-tarjetas"></div>
+      </section>
+    </main>
 
-</tbody>
-</table>
+    <footer>
+      <p>Sitio realizado por Victoria para Talento Tech</p>
+      <nav>
+        <ul class="footer-list">
+          <li><img src="./img/whatsapp.png" alt="logo de whatsapp" /></li>
+          <li><img src="./img/instagram.png" alt="logo de instagram" /></li>
+        </ul>
+      </nav>
+    </footer>
 
-    </article>
-
-
-
-    <script src="scritpt.js" defer></script>
-
-
-</body>
+    <script src="./js/index.js" type="module"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
 </html>
