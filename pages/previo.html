@@ -3,17 +3,18 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>COTIZADOR</title>
-    <link rel="stylesheet" href="style.css">
+    <title>Mes anterior</title>
+    <link rel="stylesheet" href="../style.css">
 </head>
-<header>
+<body>
+    <header>
     <nav class="header-nav">
             <ul>
                 <li>
-                    <a href="./index.html">Inicio</a>
+                    <a href="../index.html">Inicio</a>
                 </li>
                 <li>
-                    <a href="./pages/previo.html">Mes anterior</a>
+                    <a href="./previo.html">Mes anterior</a>
                 </li>
             </ul>
 
@@ -21,17 +22,17 @@
 </header>
 <body>
     <p class="titulo">COTIZADOR MICROS Y MINIBUSES</p>
-     <h1>VALORES AGOSTO 2026</h1>
+     <h1 class="texto-destacado">VALORES JULIO 2026</h1>
 
     <input type="text" class="suma" id="miInput" placeholder="Introduzca la suma asegurada">
     <article class="opciones">
-    <button class="btn" onclick="micro100()">Micro 100kms</button>
-    <button class="btn" onclick="micro200()">Micro 200kms</button>
-    <button class="btn" onclick="mini100()">Minibus hasta 20 asientos 100kms</button>
-    <button class="btn" onclick="mini200()">Minibus hasta 20 asientos 200kms</button>
-    <button class="btn" onclick="mini100mas()">Minibus mas de 20 asientos 100kms</button>
-    <button class="btn" onclick="mini200mas()">Minibus mas de 20 asientos 200kms</button>
-    <button class="btn" onclick="miniTdp()">Minibus Todo el pais</button>
+    <button class="btn" onclick="micro100A()">Micro 100kms</button>
+    <button class="btn" onclick="micro200A()">Micro 200kms</button>
+    <button class="btn" onclick="mini100A()">Minibus hasta 20 asientos 100kms</button>
+    <button class="btn" onclick="mini200A()">Minibus hasta 20 asientos 200kms</button>
+    <button class="btn" onclick="mini100masA()">Minibus mas de 20 asientos 100kms</button>
+    <button class="btn" onclick="mini200masA()">Minibus mas de 20 asientos 200kms</button>
+    <button class="btn" onclick="miniTdpA()">Minibus Todo el pais</button>
     <button class="btn btn-especial" onclick="mostrarSumas()">Ver S.A. micros</button>
     
     </article>
@@ -65,8 +66,10 @@
 
 
 
-    <script src="scritpt.js" defer></script>
+    <script src="../scritpt.js" defer></script>
 
 
+</body>
+    
 </body>
 </html>
